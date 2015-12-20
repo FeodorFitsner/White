@@ -9,6 +9,7 @@ build:
   project: src\TestStack.White.sln
   verbosity: minimal
 artifacts:
+- path: src\TestStack.White.UnitTests\bin\Debug
 - path: c:\FailedTestsScreenshots
   name: ScreenShotss
 on_finish:
